@@ -1,0 +1,12 @@
+.grid-container { max-width:960px; }
+.grid-container ul{ 
+	margin:10px 0;
+}
+.grid-container ul li{ 
+	padding:10px; 
+	cursor:pointer; 
+}
+.grid-container ul li:hover{
+	background:#eee;
+}
+.grid-container ul li.selected{ background:#ccc; cursor:default;  }
